@@ -1,0 +1,6 @@
+
+cast wallet import defaultKey --interactive
+
+forge script script/DeploySimpleStorage.s.sol:DeploySimpleStorage --rpc-url http://localhost:8545 --account defaultKey --sender 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 --broadcast -vvvv
+
+trustno1
