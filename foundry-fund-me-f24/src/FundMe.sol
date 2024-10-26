@@ -61,7 +61,7 @@ contract FundMe {
         require(success);
     }
 
-     function getAddressToAmountFunded(address fundingAddress) public view returns (uint256) {
+    function getAddressToAmountFunded(address fundingAddress) public view returns (uint256) {
         return s_addressToAmountFunded[fundingAddress];
     }
 
